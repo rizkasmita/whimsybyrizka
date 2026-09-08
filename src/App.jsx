@@ -4,6 +4,8 @@ import NavBar from './components/NavBar'
 import RibbonText from './components/RibbonText'
 import profilePic from '/profile1.jpeg';
 import memePic from '/glup.jpeg';
+import project1 from '/project1.png';
+import project2 from '/project2.png';
 
 function App() {
 
@@ -34,45 +36,118 @@ function App() {
                 <div className="skill-container">
                   <div className="skill-sect">
                     <p className="skill-sect-title">Software Development</p>
-                    <span>Laravel</span>
-                    <span>JavaScript</span>
-                    <span>React.js</span>
+                    <div className="skill-sect-content">
+                      <span>Laravel</span>
+                      <span>JavaScript</span>
+                      <span>React.js</span>
+                      <span>Flutter</span>
+                    </div>
                   </div>
                   <div className="skill-sect">
                     <p className="skill-sect-title">Data Administration</p>
-                    <span>Microsoft Excel</span>
+                    <div className="skill-sect-content">
+                      <span>Microsoft Excel</span>
+                      <span>Microsoft Word</span>
+                      <span>Microsoft PowerPoint</span>
+                      <span>Google Workspace</span>
+                    </div>
                   </div>
                   <div className="skill-sect">
-                    <p className="skill-sect-title">Software Development</p>
-                    <span>Laravel</span>
-                    <span>JavaScript</span>
-                    <span>React.js</span>
+                    <p className="skill-sect-title">AI/ML Engineering</p>
+                    <div className="skill-sect-content">
+                      <span>LLM API Integration</span>
+                      <span>CNN</span>
+                      <span>SVM</span>
+                      <span>Random Forest</span>
+                      <span>Fuzzy Logic</span>
+                    </div>
                   </div>
                   <div className="skill-sect">
-                    <p className="skill-sect-title">Software Development</p>
-                    <span>Laravel</span>
-                    <span>JavaScript</span>
-                    <span>React.js</span>
+                    <p className="skill-sect-title">Augmented Reality/3D Modelling</p>
+                    <div className="skill-sect-content">
+                      <span>Blender</span>
+                      <span>Three.js</span>
+                      <span>Unity</span>
+                      <span>A-Frame</span>
+                      <span>MindAR</span>
+                    </div>
                   </div>
                 </div>
                 </div>
-              <button>Download CV ATS</button>
+              <a href="/files/CV Rizka Asmita.pdf" download="CV Rizka Asmita.pdf">
+                <button>Download CV ATS</button>
+              </a>
             </div>
             <div className="item creds">
               <div className="creds-title">Credentials</div>
               <div className="creds-content">
                 <div className="cred">
-                  <div className="cred-title">
-                    Briton's TOEFL Institutional
+                  <div className="cred-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
                   </div>
-                  <div className="cred-desc">
-                    Lorem ipsum dolor sit amet.
-                  </div>
-                  <div className="cred-score">520</div>
-                  <div className="cred-link">
-                    <a href="#">cred</a>
+                  <div className="cred-content">
+                    <div className="cred-title">
+                      Kaltim Tuntas Scholarship Awardee
+                    </div>
+                    <div className="cred-desc">
+                      Achieved by maintaining GPA above 3.8
+                    </div>
+                    <div className="cred-score">2023-2026</div>
+                    {/* <div className="cred-link">
+                      <a href="#"></a>
+                    </div> */}
                   </div>
                 </div>
+                <div className="cred">
+                  <div className="cred-icon"><i class="fa-regular fa-file-lines"></i></div>
+                  <div className="cred-content">
+                    <div className="cred-title">
+                      TOEFL Prediction Test 520
+                    </div>
+                    <div className="cred-desc">
+                      Briton's TOEFL Institutional
+                    </div>
+                    <div className="cred-score">May 2026</div>
+                    <div className="cred-link">
+                      <a href="#">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div className="cred">
+                  <div className="cred-icon"><i class="fa-regular fa-file-lines"></i></div>
+                  <div className="cred-content">
+                    <div className="cred-title">
+                      TOEFL Equivalent Test 523
+                    </div>
+                    <div className="cred-desc">
+                      UPA Bahasa Universitas Mulawarman
+                    </div>
+                    <div className="cred-score">April 2026</div>
+                    <div className="cred-link">
+                      <a href="#">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div className="cred">
+                  <div className="cred-icon">
+                    <i class="fa-solid fa-certificate"></i>
+                  </div>
+                  <div className="cred-content">
+                    <div className="cred-title">
+                      Certificate of Completion
+                    </div>
+                    <div className="cred-desc">
+                      Asah led by Dicoding
+                    </div>
+                    <div className="cred-score">Aug 2025 - Jan 2026</div>
+                    <div className="cred-link">
+                      <a href="#">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="creds-footer">
+                <p>you can find more of my credentials on <a href="https://www.linkedin.com/in/rizkaasmita" target='_blank'>my linkedin</a> page.</p>
               </div>
             </div>
           </div>
@@ -83,22 +158,24 @@ function App() {
         <div className="container">
           <div className="card">
             <div className="card-img">
-              <img src={memePic} alt="" />
+              <img src={project1} alt="" />
             </div>
             <div className="card-content">
               <div className="card-category">
                 <ul>
                   <li>Web</li>
-                  <li>3D Object</li>
+                  <li>AR</li>
+                  <li>Undergraduate Thesis</li>
                 </ul>
               </div>
-              <div className="card-title">lorem ipsum dolor sit amet</div>
+              <div className="card-title">web-based markerless AR virtual try-on for glasses</div>
               <div className="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi at aspernatur incidunt deserunt unde, beatae alias similique officia aperiam ipsum in dicta. Vel earum aspernatur quos dolore. Facilis, cum.</div>
               <div className="card-tools">
                 <ul>
                   <li>MindAR</li>
                   <li>Blender</li>
                   <li>Three.js</li>
+                  <li>AFrame</li>
                 </ul>
               </div>
               <div className="card-links">
@@ -109,7 +186,7 @@ function App() {
           </div>
           <div className="card">
             <div className="card-img">
-              <img src={memePic} alt="" />
+              <img src={project2} alt="" />
             </div>
             <div className="card-content">
               <div className="card-category">
@@ -198,9 +275,10 @@ function App() {
             get in touch.
           </div>
           <div className="contact-links">
-            <a href="">✦ @rizkasmita</a>
-            <a href="">✦ rizkaasmita</a>
-            <a href="">✦ catnooire</a>
+            <a href=""><i class="fa-regular fa-envelope"></i> asmitarizka@gmail.com</a>
+            <a href="https://www.linkedin.com/in/rizkaasmita" target='_blank'><i class="fa-brands fa-linkedin-in"></i> rizkaasmita</a>
+            <a href="https://github.com/rizkasmita" target='_blank'><i class="fa-brands fa-github"></i> rizkasmita</a>
+            <a href="https://wa.me/6281346331092" target='_blank'><i class="fa-brands fa-whatsapp"></i> +62 813 4633 1092</a>
           </div>
         </div>
       </section>
