@@ -6,6 +6,9 @@ import profilePic from '/profile1.jpeg';
 import memePic from '/glup.jpeg';
 import project1 from '/project1.png';
 import project2 from '/project2.png';
+import project3 from '/project3.png';
+import project4 from '/project4.png';
+import project5 from '/project5.png';
 
 function App() {
 
@@ -169,18 +172,19 @@ function App() {
                 </ul>
               </div>
               <div className="card-title">web-based markerless AR virtual try-on for glasses</div>
-              <div className="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi at aspernatur incidunt deserunt unde, beatae alias similique officia aperiam ipsum in dicta. Vel earum aspernatur quos dolore. Facilis, cum.</div>
+              <div className="card-desc">A web-based markerless AR application for virtual glasses try-on, featuring real-time face tracking and custom 3D glasses assets optimized for the web.</div>
               <div className="card-tools">
                 <ul>
                   <li>MindAR</li>
                   <li>Blender</li>
+                  <li>JavaScript</li>
                   <li>Three.js</li>
-                  <li>AFrame</li>
+                  <li>A-Frame</li>
                 </ul>
               </div>
               <div className="card-links">
-                <a href="">Github ➜</a>
-                <a href="">App ➜</a>
+                <a href="https://github.com/rizkasmita/toko-kacamantan" target='_blank'>Github <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://toko-kacamantan.vercel.app" target='_blank'>App <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </div>
             </div>
           </div>
@@ -192,73 +196,94 @@ function App() {
               <div className="card-category">
                 <ul>
                   <li>Web</li>
-                  <li>3D Object</li>
+                  <li>Gen AI</li>
+                  <li>Capstone Project</li>
                 </ul>
               </div>
-              <div className="card-title">lorem ipsum dolor sit amet</div>
-              <div className="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi at aspernatur incidunt deserunt unde, beatae alias similique officia aperiam ipsum in dicta. Vel earum aspernatur quos dolore. Facilis, cum.</div>
+              <div className="card-title">Learncheck! Formative Assessment with AI</div>
+              <div className="card-desc">Developed an Express.js REST API with LLM integration to generate questions from learning materials through the <b>Asah led by Dicoding</b>. Applied prompt engineering and JSON parsing for structured outputs.</div>
               <div className="card-tools">
                 <ul>
-                  <li>MindAR</li>
-                  <li>Blender</li>
-                  <li>Three.js</li>
+                  <li>React.js</li>
+                  <li>Express.js</li>
+                  <li>Gemini AI API</li>
                 </ul>
               </div>
               <div className="card-links">
-                <a href="">Github</a>
-                <a href="">App</a>
+                <a href="https://github.com/LearncheckAI/Learncheck" target='_blank'>Github <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://canva.link/sp3w468bv3g61zq" target='_blank'>Deck <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </div>
             </div>
           </div>
           <div className="card">
             <div className="card-img">
-              <img src={memePic} alt="" />
+              <img src={project3} alt="" />
             </div>
             <div className="card-content">
               <div className="card-category">
                 <ul>
-                  <li>Web</li>
-                  <li>3D Object</li>
+                  <li>AI/ML</li>
+                  <li>Publication</li>
                 </ul>
               </div>
-              <div className="card-title">lorem ipsum dolor sit amet</div>
-              <div className="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi at aspernatur incidunt deserunt unde, beatae alias similique officia aperiam ipsum in dicta. Vel earum aspernatur quos dolore. Facilis, cum.</div>
+              <div className="card-title">Rainfall Intensity Classification Using the Mamdani Fuzzy Method</div>
+              <div className="card-desc">Classified rainfall intensity using the Mamdani Fuzzy Logic method, including data preprocessing, fuzzy rule design, and model evaluation.</div>
               <div className="card-tools">
                 <ul>
-                  <li>MindAR</li>
-                  <li>Blender</li>
-                  <li>Three.js</li>
+                  <li>Python</li>
+                  <li>Fuzzy Mamdani</li>
                 </ul>
               </div>
               <div className="card-links">
-                <a href="">Github</a>
-                <a href="">App</a>
+                <a href="https://doi.org/10.56357/jt.v21i1.422" target='_blank'>Publication <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </div>
             </div>
           </div>
           <div className="card">
             <div className="card-img">
-              <img src={memePic} alt="" />
+              <img src={project4} alt="" />
             </div>
             <div className="card-content">
               <div className="card-category">
                 <ul>
                   <li>Web</li>
-                  <li>3D Object</li>
                 </ul>
               </div>
-              <div className="card-title">lorem ipsum dolor sit amet</div>
-              <div className="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi at aspernatur incidunt deserunt unde, beatae alias similique officia aperiam ipsum in dicta. Vel earum aspernatur quos dolore. Facilis, cum.</div>
+              <div className="card-title">Web-Based Student Registration System Development - STMIK Samarinda</div>
+              <div className="card-desc">Developed an admin backend system and database to efficiently manage and monitor student registration data. Implemented an end-to-end registration workflow with a structured and seamless process.</div>
               <div className="card-tools">
                 <ul>
-                  <li>MindAR</li>
-                  <li>Blender</li>
-                  <li>Three.js</li>
+                  <li>Laravel 11</li>
+                  <li>Spatie</li>
+                  <li>Bootstrap</li>
                 </ul>
               </div>
               <div className="card-links">
-                <a href="">Github</a>
-                <a href="">App</a>
+                <a href="https://github.com/Ryan-Jusniansyah/Project-STMIK/tree/master" target='_blank'>Github <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-img">
+              <img src={project5} alt="" />
+            </div>
+            <div className="card-content">
+              <div className="card-category">
+                <ul>
+                  <li>Mobile</li>
+                  <li>Android</li>
+                </ul>
+              </div>
+              <div className="card-title">Lung Cancer Classification Using Convolutional Neural Network (CNN)</div>
+              <div className="card-desc">Developed a Flutter mobile app for image-based AI prediction with an intuitive upload and result interface. Integrated AI model APIs to enable real-time predictions.</div>
+              <div className="card-tools">
+                <ul>
+                  <li>Python</li>
+                  <li>Flutter</li>
+                </ul>
+              </div>
+              <div className="card-links">
+                <a href="https://github.com/rizkasmita/A4_PAMOBILEKB" target='_blank'>Github <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </div>
             </div>
           </div>
