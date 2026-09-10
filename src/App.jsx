@@ -95,7 +95,7 @@ function App() {
                     <div className="cred-desc">
                       Achieved by maintaining GPA above 3.8
                     </div>
-                    <div className="cred-score">2023-2026</div>
+                    <div className="cred-date">2023-2026</div>
                     {/* <div className="cred-link">
                       <a href="#"></a>
                     </div> */}
@@ -110,9 +110,9 @@ function App() {
                     <div className="cred-desc">
                       Briton's TOEFL Institutional
                     </div>
-                    <div className="cred-score">May 2026</div>
+                    <div className="cred-date">May 2026</div>
                     <div className="cred-link">
-                      <a href="#">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <a href="https://drive.google.com/file/d/1VeglB0njaXFg7UXfwCGhEEohIBKG2JsF/view?usp=sharing" target='_blank'>View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                 </div>
@@ -125,9 +125,9 @@ function App() {
                     <div className="cred-desc">
                       UPA Bahasa Universitas Mulawarman
                     </div>
-                    <div className="cred-score">April 2026</div>
+                    <div className="cred-date">April 2026</div>
                     <div className="cred-link">
-                      <a href="#">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <a href="https://drive.google.com/file/d/1EBk-c0T2b6XgAQE4JxaOkgj7TpINctfl/view?usp=sharing" target='_blank'>View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                 </div>
@@ -142,9 +142,9 @@ function App() {
                     <div className="cred-desc">
                       Asah led by Dicoding
                     </div>
-                    <div className="cred-score">Aug 2025 - Jan 2026</div>
+                    <div className="cred-date">Aug 2025 - Jan 2026</div>
                     <div className="cred-link">
-                      <a href="#">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <a href="https://drive.google.com/file/d/1_tOGtqHHPYOpkqD-yez7giJ9oufVAIbI/view?usp=sharing" target='_blank'>View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                   </div>
                 </div>
@@ -292,6 +292,27 @@ function App() {
       <RibbonText title='experiences' symbol='★' />
       <section className="experience">
         <div className="title">experiences i've had.</div>
+        <div className="timeline">
+  <div className="timeline-item">
+    <div className="timeline-dot">✦</div>
+
+    <div className="timeline-content">
+      <span>2026</span>
+      <h3>Project Officer Intern</h3>
+      <p>Briton English Education</p>
+    </div>
+  </div>
+
+  <div className="timeline-item">
+    <div className="timeline-dot">✦</div>
+
+    <div className="timeline-content">
+      <span>2025</span>
+      <h3>Backend Developer Intern</h3>
+      <p>STMIK Samarinda</p>
+    </div>
+  </div>
+</div>
       </section>
       <RibbonText title='contact' symbol='✦' theme='violet' />
       <section className="contact">
